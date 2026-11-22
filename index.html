@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>KINGDOM OF LESOTHO</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            font-size: 25px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #176b45;
+        }
+
+        main {
+            width: 90%;
+            margin: 30px auto;
+        }
+
+        .content h2 {
+            text-align: center;
+            color: #176b45;
+        }
+
+        article {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        article h3 {
+            color: #176b45;
+        }
+
+        article p {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        article img {
+            width: 300px;
+            height: 250px;
+            max-width: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #176b45;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #104b30;
+        }
+
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+       
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>TOURIST ATTRACTION PLACES IN THE KINGDOM OF LESOTHO</h1>
+
+
+        <nav>
+
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="content">
+
+            <h2>TOP PLACES TO VISIT</h2>
+
+            <article class="attraction-card">
+
+                <h3>Maletsunyane Falls</h3>
+
+                <p>
+                    Maletsunyane Falls is one of the highest
+                    single-drop waterfalls in Africa. It falls
+                    about 192 metres into a beautiful gorge
+                    near Semonkong.
+                </p>
+
+                <img src="Maletsunyane Falls.jpg" alt="Maletsunyane Falls">
+
+            </article>
+
+            <article>
+
+                <h3>Tshehlanyane National Park</h3>
+
+                <p>
+                    Tshehlanyane National Park is one of
+                    Lesotho's beautiful national parks. It has
+                    high mountains, deep river valleys and
+                    different types of plants and wildlife.
+                </p>
+
+                <img src="Tsehlanyane National Park.jpg" alt="Tshehlanyane National Park">
+
+            </article>
+
+            <article>
+
+                <h3>Thaba Bosiu</h3>
+
+                <p>
+                    Thaba Bosiu is an important historical
+                    place in Lesotho. It served as a mountain
+                    stronghold for King Moshoeshoe I and
+                    played an important role in the history
+                    of the Basotho nation.
+                </p>
+
+                <img src="Thaba Bosiu.jpg" alt="Thaba Bosiu">
+
+            </article>
+
+
+            <article>
+
+                <h3>Bokong National Reserve</h3>
+
+                <p>
+                    Bokong Nature Reserve is a beautiful
+                    high-altitude protected area in Lesotho.
+                    It is famous for its mountains, waterfalls,
+                    wetlands, birds and amazing views.
+                </p>
+
+                <img src="Bokong Nature Reserve.jpg" alt="Bokong Nature Reserve">
+
+            </article>
+
+
+            <div style="text-align:center;">
+
+                <button onclick="visitLesotho()">
+                    Visit Lesotho
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Visit Lesotho Tourism.
+            <br>
+            All rights reserved.
+        </p>
+
+    </footer>
+
+    <script>
+
+      function visitLesotho() {
+        alert("Welcome to the Kingdom of Lesotho! Explore our beautiful tourist attractions.");
+       window.location.href = "gallery.html";
+    }
+
+    </script>
+
+</body>
+</html>
